@@ -13,7 +13,7 @@ actions:
 - deploy:
     to: docker
     image:
-      name: pan2048/mbed-os-env-cmake:latest
+      name: mbedoslava/mbed-os-env-cmake:latest
 - boot:
     method: docker
     command: bash
